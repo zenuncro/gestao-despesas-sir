@@ -41,15 +41,16 @@ body {
     align-items: right;
     text-align: right;
     margin: 20px auto;
-    margin-top: 20px;
+    margin-top: 0;
     list-style-type: none;
     padding: 10px;
 }
 
 .nav-links ul {
-   margin: 0;
-   padding: 0;
-   text-align: right;
+    margin-top: 30px;
+    padding: 0;
+    text-align: right;
+    margin-right: 20px;
 } 
 
 .nav-links li {
@@ -63,14 +64,14 @@ body {
 
 .nav-links li a {
     text-decoration: none;
-    color: black;
+    color: #171515;
     font-size: large;
     font-weight: bolder;
 
 }
 
 .nav-links li a:hover {
-    color: greenyellow; 
+    color: #F9F6F0; 
 }
 
 .nav-links li a.active {
@@ -79,7 +80,7 @@ body {
 }
 .welcome {
     padding: 10px;
-    color: #f6f6f6;
+    color: white;
     text-align: center;
 }
 
@@ -89,30 +90,31 @@ body {
 }
 
 .logo {
-    width: 300px;
+    width: 280px;
     height: auto;
-    margin-top: 0;
+    margin-top: 25px;
     margin-left: 20px;
+    position: relative;
+    border: 2px solid gold; 
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #171515;
 }
 
-#how-it-works, #about-us{
+#how-it-works, #about-us {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-color: #f0f0f0;
+    background-color: #D1E2C4;
     scroll-snap-type: y mandatory;
     min-height: 100vh;
     position: relative;
-    background-image: url('./bg6.jpg');
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
     width: 100%;
-
 }
+
 
 .login{
     display: flex;
@@ -185,19 +187,6 @@ body {
 .text-about-us{
     text-align: center;
 }
-
-/*#about-us{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    background-color: #f0f0f0;
-    scroll-snap-type: y mandatory;
-    min-height: 100vh;
-    background-image: url(./bg7.jpg);
-}*/
 
 #team{
     margin: 20px;
